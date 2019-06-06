@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listViewCam"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <!-- DECLARING FLOATING ACTION BUTTON -->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addNewCam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:src="@mipmap/baseline_add_white_24"
+            app:backgroundTint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textViewCam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+</LinearLayout>
+

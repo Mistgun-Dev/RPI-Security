@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "946319554631",
+    "firebase_url": "https://rpi-security-2964e.firebaseio.com",
+    "project_id": "rpi-security-2964e",
+    "storage_bucket": "rpi-security-2964e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946319554631:android:72e2b73bd56b559b",
+        "android_client_info": {
+          "package_name": "com.rpi_security"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQfEIyLMxK0E6f_jN2j2jPwfnOECtwMtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946319554631-350p2k0la8hgh6o4nbspbk01lpude8gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
