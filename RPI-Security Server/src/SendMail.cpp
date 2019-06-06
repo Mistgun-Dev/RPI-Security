@@ -53,9 +53,9 @@ void SendMail::vdSendMail(string pathVideo, char *dateTimeIntrusion)
 {
   string host = "smtp.gmail.com";
   int port = 465;
-  string sUserName = "rpi.camera93@gmail.com";
-  string sPassword = "rpisecurity93";
-  string to = "mohamed.nehari@gmail.com";
+  string sUserName = "adresseEmetteur@gmail.com";
+  string sPassword = "mdpDuCompteEmetteur";
+  string to = "adresseDestinataire@gmail.com";
   string from = "RPI Camera Security";
   string subject = "Intrusion Detected";
   MailMessage message;

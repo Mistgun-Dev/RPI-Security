@@ -28,7 +28,7 @@ void SendNotification::vdSendNotification(char* dateTimeIntrusion)
 	
 	memset(as8BufferJSON, 0, sizeof as8BufferJSON);
 	sprintf(as8BufferJSON, "%s%s%s",
-					"{\"to\": \"cZrU4YuFDSY:APA91bHHrCCOrooWtAvUWjexKCE1gPjJrKi74C9q-Xg7_T1DAKR3O9CVp1IORpk_T9Ac2Jbiux_xU8wsbz01_DMTqTsz0O4Br7i5F8HcuqfpFiJNACXY3gmY9AMowHp2S5c3FDajfvei\", \
+					"{\"to\": \"Remplacer par l'id fournie par Firebase sur ledevice cible\", \
 					\"data\": 													\
 						{														\
 							\"title\": \"Intrusion Détectée !\",	\
@@ -46,7 +46,7 @@ void SendNotification::vdSendNotification(char* dateTimeIntrusion)
     curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
     curl_easy_setopt(curl, CURLOPT_URL, "https://fcm.googleapis.com/fcm/send");
 	headers = curl_slist_append(headers, "Content-Type: application/json");
-	headers = curl_slist_append(headers, "Authorization : key=AIzaSyAD2FOBHtRXKY56WtPA-sDsqbsqNPELwsE");
+	headers = curl_slist_append(headers, "Authorization : key=Remplacer par la key API du serveur Google Firebase");
 	curl_easy_setopt(curl, CURLOPT_POSTFIELDS, as8BufferJSON);
 
 	curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
