@@ -1,5 +1,5 @@
 # RPI-Security
-RPI-Security est un système de caméra embarquée détectrice d'intrusions,tournant sur Raspberry Pi et contrôlable à distance via une application Android.
+RPI-Security est un système de caméra embarquée détectrice d'intrusions, tournant sur Raspberry Pi et contrôlable à distance via une application Android.
 
 #
 # Fonctionalités 
